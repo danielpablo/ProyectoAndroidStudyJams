@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Citas Médicas</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_principal_medico">Menú Principal</string>
+    <string name="title_activity_principal_paciente">Menú Principal</string>
+    <string name="title_activity_pedir_cita_paciente">Pedir Cita</string>
+    <string name="title_activity_ver_datos_paciente">Datos Personales</string>
+    <string name="title_activity_ver_citas_paciente">Consultar Citas</string>
+    <string name="title_activity_borrar_cita_paciente">Borrar Citas</string>
+    <string name="title_activity_ver_datos_medico">Datos Personales</string>
+    <string name="title_activity_ajustes">Ajustes</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="title_activity_ver_citas_medico">Consultar Citas</string>
+    <string name="title_activity_ver_citas_medico_xpaciente">Consultar Citas</string>
+    <string name="title_activity_borrar_cita_medico">Borrar Citas</string>
+    <string name="title_activity_borrar_cita_medico_xpaciente">Borrar Citas</string>
+</resources>

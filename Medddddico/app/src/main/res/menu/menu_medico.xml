@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pablo.medddddico.PrincipalMedico">
+
+    <item
+        android:id="@+id/cerrarSesion"
+        android:orderInCategory="100"
+        android:title="Cerrar Sesión"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/lanzarAjustes"
+        android:orderInCategory="100"
+        android:title="Ajustes"
+        android:showAsAction="never" />
+</menu>

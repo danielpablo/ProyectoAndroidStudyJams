@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pablo.medddddico">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fondo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Inicio"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <application />
+
+        <activity
+            android:name=".Registro"
+            android:configChanges="orientation|screenSize"
+            android:label="Registro"
+            android:parentActivityName=".Inicio">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pablo.medddddico.Inicio" />
+        </activity>
+        <activity
+            android:name=".PrincipalMedico"
+            android:label="@string/title_activity_principal_medico"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrincipalPaciente"
+            android:label="@string/title_activity_principal_paciente"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PedirCitaPaciente"
+            android:label="@string/title_activity_pedir_cita_paciente"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".VerDatosPaciente"
+            android:label="@string/title_activity_ver_datos_paciente"
+            android:parentActivityName=".PrincipalPaciente"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pablo.medddddico.PrincipalPaciente" />
+        </activity>
+        <activity
+            android:name=".VerCitasPaciente"
+            android:label="@string/title_activity_ver_citas_paciente"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BorrarCitaPaciente"
+            android:label="@string/title_activity_borrar_cita_paciente"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".VerDatosMedico"
+            android:label="@string/title_activity_ver_datos_medico"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".VerCitasMedico"
+            android:label="@string/title_activity_ver_citas_medico"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".VerCitasMedicoXPaciente"
+            android:label="@string/title_activity_ver_citas_medico_xpaciente"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BorrarCitaMedico"
+            android:label="@string/title_activity_borrar_cita_medico"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BorrarCitaMedicoXPaciente"
+            android:label="@string/title_activity_borrar_cita_medico_xpaciente"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

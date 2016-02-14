@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.pablo.medddddico.Registro"
+    tools:showIn="@layout/activity_registro">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nombreRegistro"
+        android:hint="Nombre"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/apellidosRegistro"
+        android:layout_alignStart="@+id/apellidosRegistro" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passRegistro"
+        android:hint="Password"
+        android:layout_weight="0.05"
+        android:layout_above="@+id/BotonRegistro"
+        android:layout_alignLeft="@+id/apellidosRegistro"
+        android:layout_alignStart="@+id/apellidosRegistro" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eres Médico?"
+        android:id="@+id/checkBoxRegistro"
+        android:checked="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/BotonRegistro"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/apellidosRegistro"
+        android:hint="Apellidos"
+        android:layout_below="@+id/nombreRegistro"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:id="@+id/BotonRegistro"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/checkBoxRegistro"
+        android:layout_alignStart="@+id/checkBoxRegistro" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/DNIRegistro"
+        android:hint="DNI"
+        android:layout_below="@+id/apellidosRegistro"
+        android:layout_alignLeft="@+id/apellidosRegistro"
+        android:layout_alignStart="@+id/apellidosRegistro" />
+</RelativeLayout>
